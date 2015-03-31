@@ -1,3 +1,14 @@
 * Regexcellent
 
 This project will be a web-based tool for mangling text with regexes and possibly other clever things.
+
+Project bootstrapping:
+- Initial git and npm
+- Gulp
+- ... with CoffeeScript!
+- TravisCI?
+- EditorSettings?
+
+First-pass tasks:
+- Get a web page that can execute a regex and show matches.
+- Using Angular.js? For now, at any rate.
