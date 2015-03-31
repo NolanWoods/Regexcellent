@@ -1,0 +1,3 @@
+* Regexcellent
+
+This project will be a web-based tool for mangling text with regexes and possibly other clever things.
