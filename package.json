@@ -18,6 +18,8 @@
   "homepage": "https://github.com/nolanwoods/regexcellent",
   "devDependencies": {
     "coffee-script": "^1.9.1",
-    "gulp": "^3.8.11"
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "main-bower-files": "^2.6.2"
   }
 }
