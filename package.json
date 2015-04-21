@@ -4,7 +4,7 @@
   "description": "web-based regex text-mangling tool",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers coffee:coffee-script/register gulpfile.test.coffee"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,12 @@
   },
   "homepage": "https://github.com/nolanwoods/regexcellent",
   "devDependencies": {
+    "chai": "^2.2.0",
     "coffee-script": "^1.9.1",
     "del": "^1.1.1",
+    "fs-extra": "^0.18.2",
     "gulp": "^3.8.11",
-    "main-bower-files": "^2.6.2"
+    "main-bower-files": "^2.6.2",
+    "mocha": "^2.2.4"
   }
 }
